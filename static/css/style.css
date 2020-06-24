@@ -1,0 +1,432 @@
+*,html,body{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    height: auto;
+    background-color: linear-gradient(rgb(0,191,255.4), rgb(0,0,0,0.6));
+    background-position: unset;
+    background-attachment: scroll;
+}
+header{
+    min-height: 150px;
+    line-height: 80px;
+    padding-top: 20px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.secondary{
+    background-color: deepskyblue;
+    box-shadow: 0px 0px 25px 0px;
+    text-align: center;
+    transition: all 2s ease-in;
+    padding-top: 20px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+header nav{
+    background: none;
+    margin: auto;
+    margin: auto;
+    min-width: 100%;
+    text-align: center;
+    max-width: max-content;
+    max-height: max-content;
+    padding-top: 20px;
+}
+.logo img{
+    margin-top: px;
+}
+header nav ul li a{
+    padding-right: 40px;
+    padding-left: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: all 0.5s ease-in;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 128);
+}
+.slider .slider-carousel .img1{
+    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.6)), url(https://s3-ap-southeast-2.amazonaws.com/www.citproj/images/2.jpg);
+    background-size: 100% 100%;
+}
+.img2{
+    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.6)), url(https://s3-ap-southeast-2.amazonaws.com/www.citproj/images/1.jpg);
+    background-size: 100% 100%;
+}
+.img3{
+    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.6)), url(https://s3-ap-southeast-2.amazonaws.com/www.citproj/images/11.jpg);
+    background-size: 100% 100%;
+}
+.img11{
+    background-image: linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.2)), url(https://s3-ap-southeast-2.amazonaws.com/www.citproj/images/bg1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.img111{
+    background-image: linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.2)), url(https://s3-ap-southeast-2.amazonaws.com/www.citproj/images/bg3.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.img1111{
+    background-image: linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.2)), url(https://s3-ap-southeast-2.amazonaws.com/www.citproj/images/15.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.img15{
+    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.6)), url(https://s3-ap-southeast-2.amazonaws.com/www.citproj/images/bg10.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.slider, .slider ul, .slider ul li{
+    height: 800px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.slider h2{
+    font-weight: bold;
+    margin-top: 100px;
+}
+.sec1{
+    margin: 100px;
+    padding: 0%;
+}
+.sec1{
+    text-align: center;
+    margin-top: 350px;
+}
+.sec1 h1{
+    color: #fd0054;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+}
+.sec1 h3{
+    color: #22b2da;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+}
+.slider a{
+    padding: 10px;
+    font-size: 35px;
+}
+.slider a.btn-full{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    opacity: 0.7px;
+    transition: 1s;
+}
+.slider a.btn-full:hover{
+    opacity: 0.7;
+    background-color: deeppink;
+}
+.intro-area{
+    position: absolute;
+    padding: 100px;
+    text-align: center;
+}
+
+.sec5{
+    text-align: center;
+    margin-top: 100px;
+}
+.sec5 h1{
+    color: #fd0054;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+}
+.sec5 p{
+    color: #818181;
+    display: inline-block;
+    padding: 20px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.5em;
+}
+.sec5 hr{
+    background-color: deepskyblue;
+    margin: 1px auto;
+    width: 150px;
+    height: 0.5px;
+    transition: 0.3s ease-out;
+}
+.row div:hover #hr{
+    background-color: #fd0054;;
+    width: 200px;
+    height: 0.5px;
+    transform: scale(0.6);
+    -webkit-transform: (0.6);
+    -moz-transform: (0.6);
+    -o-transform: (0.6);
+}
+.intro-block{
+    position: relative;
+    background: #f7f7f7;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 90px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    border-radius: 10%;
+    width: auto;
+    margin-bottom: 50px;
+}
+.intro-block:hover, .intro-block.activate{
+    background: deepskyblue;
+    text-align: center;
+}
+.intro-block:hover{
+    text-align: center;
+    -webkit-transition: .9s ease;
+    -ms-transition: .9s ease;
+    -o-transition: .9s ease;
+    -moz-transition: .9s ease;
+    transition: .9s ease;
+}
+.intro-block .intro-icon{
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px;
+    text-align: center;
+}
+.intro-block .fa{
+    width: 63px;
+    height: 63px;
+    font-size: 40px;
+    color: white;
+    line-height: 1px;
+    background: deepskyblue;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 7px #cceefc;
+    text-align: center;
+}
+.intro-block:hover .fa, .intro-block.activate .fa{
+    background: white;
+    color: deepskyblue;
+    box-shadow:  0px 0px 0px 10px #cceefc;
+    text-align: center;
+}
+.intro-block h3{
+    color: deepskyblue;
+    font-weight: 700px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.intro-block:hover h3{
+    color: #fd0054;
+}
+.intro-block p{
+    color: #585050;
+    font-weight: 700px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.intro-block:hover p{
+    color: #f6f6f6;
+    font-weight: 700px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.feature-area{
+    background-image:linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.6)), url(https://s3-ap-southeast-2.amazonaws.com/www.citproj/images/17.jpg);
+    background-position: top;
+    height: 800px;
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+}
+.title h2{
+    margin-top: 350px;
+}
+.title h2{
+    color: white;
+}
+.title .sub-heading p{
+    color: #c0c0c0;
+    border-color: deepskyblue;
+}
+footer{
+    background-color: #22b2da;
+    margin: auto;
+    min-width: 100%;
+    max-width: max-content;
+    max-height: max-content;
+    min-height: 150px;
+    line-height: 50px;
+    padding-top: 20px;
+}
+footer ul li a{
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: all 0.5s ease-in;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 128);
+}
+.testimonials{
+    background-image:linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.6)), url(https://s3-ap-southeast-2.amazonaws.com/www.citproj/images/bg8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+}
+.testimonials .carousel-indicators{
+    bottom: -60px;
+}
+.testimonials .sub-heading{
+    color: whitesmoke;
+}
+.carousel-inner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid deepskyblue;
+    padding: 5px;
+}
+.testimonials .carousel-indicators li{
+    background-color: deepskyblue;
+}
+.testimonials .carousel-indicators li{
+    border: deepskyblue;
+}
+.team-area{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 75px;
+    text-align: center;
+}
+.team-area .sub-heading{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.team-block img{
+    height: 250px;
+    width: 170px;
+    border-radius: 25%; 
+}
+.team-block h3{
+    color: deepskyblue;
+    font-size: 20px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.team-block span{
+    columns: #6c6c6c;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 0.025em;
+}
+.team-block p{
+    color: dimgray;
+    font-size: 14px;
+    padding: 25px 15px;
+    text-transform: capitalize;
+    line-height: 24px;
+}
+.team-block{
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 75px;
+}
+.divider{
+    border-right: 1px solid #d9d9d9;
+    margin-bottom: 30px;
+}
+.contact-area h3{
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+.contact-area h4{
+    color: #3a3a3a;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+    letter-spacing: 0.025em;
+}
+.contact-area span{
+    display: block;
+    color: #3a3a3a;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 0.025em;
+}
+.contact-area ul li{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.contact-area ul li:last-child{
+    margin-bottom: 75px;
+}
+.contact-address ul li .fa{
+    float: left;
+    width: 25px;
+    color: deepskyblue;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.contact-area .form-control, .contact-area textarea{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #fafdff;
+    border: 1px solid #a5d3eb;
+    padding: 10px 12px;
+    color: #bdbdbd;
+    height: 45px;
+    font-weight: 400;
+    border-radius: 9;
+}
+.contact-area .form-group{
+    margin-bottom: 10px;
+}
+.contact-area textarea{
+    min-height: 120px;
+}
+.contact-area .default-btn{
+    padding: 10px;
+    background-color: #585050;
+    color: #f7f7f7;
+}
+.collection{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    padding-bottom: 150px;
+    color: black;
+}
+.collection-inner img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid deepskyblue;
+}
+.collection-inner div{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
